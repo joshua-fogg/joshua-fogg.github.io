@@ -7,7 +7,7 @@ font-family: Arial;
 
 }
 img{
-	border-radius: 50%;
+	border-radius: false;
 	max-width: 75%;
 }
 
