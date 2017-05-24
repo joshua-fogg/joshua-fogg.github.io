@@ -1,4 +1,19 @@
-banner.image{
-   height:  25%;
-   width:   100%;
+img{
+    border-radius:8px;
+    max-width: auto;
+    max-height: 15%;
+}
+nav_link{
+  font-style: italic;
+}
+div{
+  text-align: center;
+}
+li{
+  float: left;
+}
+
+content{
+  max-width: 80%;
+
 }
