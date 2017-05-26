@@ -6,6 +6,10 @@
   align-content: center;
 }
 
+ul{
+  position: absolute;
+}
+
 img#banner{
 	width: 80%;
 }
@@ -14,7 +18,13 @@ img#index_add{
   width: 80%;
   align-self: center;
 }
-
+div.table{
+  line-height: 1.5rem;
+  font-weight:400;
+  background-position: center;
+  align-content: center;
+  max-width: 50%;
+}
 #nav{
     width: 80%;
     align-self: center;
@@ -24,6 +34,7 @@ img#index_add{
 
 .page{
 align-content: center;
+padding: 10%;
 }
 
 /*navigation list items*/
