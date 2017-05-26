@@ -50,7 +50,7 @@ align-content: center;
 
   li a:hover, .dropdown:hover .dropbtn {
       background-color: TEAL;
-      color: white;
+      color: #00802b;
   }
 
   li.dropdown {
@@ -61,7 +61,7 @@ align-content: center;
       display: none;
       position: absolute;
 /*background colour for dropdown links*/
-      background-color: yellow;
+      background-color: pink;
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
@@ -70,7 +70,7 @@ align-content: center;
 
   .dropdown-content a {
 /*colour of link text*/
-      color: black;
+      color: #00802b;
       padding: 12px 16px;
       text-decoration: none;
       display: block;
