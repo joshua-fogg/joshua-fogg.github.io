@@ -10,7 +10,10 @@
 img#banner{
 	width: 80%;
 }
-
+div#wireframes{
+  width: auto;
+  align-items: flex-end;
+}
 img#index_add{
   width: 80%;
   align-self: center;
