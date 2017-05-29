@@ -95,5 +95,5 @@ padding: 10%;
   }
 
 /*for the c3 hover link*/
-  a>div { display:inline-flex; }
-  a:hover>div { display: inline-flex;; }
+  a>div { display:inline-block; }
+  a:hover>div { display: block; }
