@@ -95,5 +95,5 @@ padding: 10%;
   }
 
 /*for the c3 hover link*/
-  a>div { display:inline-block; }
+  a>div { display:none; }
   a:hover>div { display: block; }
