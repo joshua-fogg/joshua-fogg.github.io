@@ -4,6 +4,7 @@ App Ideas
 - Native flora: photo in field will ID plant to species level.
 - Bird call: records song and tells you what bird it is.
 - lets you custome arrannge dual monitor borders to match local environment, ie staged monitors.
+- use images or objects as visual key to unlock secure data.
 
 
 Ted Talk
