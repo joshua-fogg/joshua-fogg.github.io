@@ -3,7 +3,7 @@ App Ideas
 - Local; app that allows users to meet up and be shown around by a local resident.
 - Native flora: photo in field will ID plant to species level.
 - Bird call: records song and tells you what bird it is.
-- 
+- lets you custome arrannge dual monitor borders to match local environment, ie staged monitors.
 
 
 Ted Talk
