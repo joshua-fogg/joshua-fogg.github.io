@@ -6,6 +6,8 @@ App Ideas
 - lets you custome arrannge dual monitor borders to match local environment, ie staged monitors.
 - use images or objects as visual key to unlock secure data.
 
+- ali; colour palette app; colour wheel, mixer and memory board for colours made or selected.
+
 
 Ted Talk
 - Competitors are all equally qualified to make these products.
