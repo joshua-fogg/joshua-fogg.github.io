@@ -6,7 +6,19 @@ text-rendering: auto;
   color: #3370cc;
   align-content: center;
 }
-
+h1, h2, h3, h4{
+  text-decoration: underline;
+  color: #fc4f00;
+}
+code{
+  padding: .2rem .5rem;
+    margin: 0 .2rem;
+    font-size: 90%;
+    white-space: nowrap;
+    background: #F1F1F1;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+}
 
 img#banner{
 	width: 80%;
