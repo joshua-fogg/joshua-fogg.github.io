@@ -1,7 +1,7 @@
 *{
   font-family: 'Josefin Sans';
-  font-size: 2rem;
-  text-align: center;
+ text-align: center;
+text-rendering: auto;
   background-color: black;
   color: #3370cc;
   align-content: center;
@@ -14,6 +14,12 @@ img#banner{
 div#wireframes{
   width: auto;
   align-items: flex-end;
+}
+div#content{
+  text-align: justify;
+  text-justify: inter-word;
+  width: 80%;
+  padding: 10%;
 }
 img#index_add{
   width: 70%;
@@ -36,8 +42,8 @@ div.table{
 
 .page{
 align-content: center;
+width: 80%;
 padding: 10%;
-font-size: 2rem;
 }
 
 /*navigation list items*/
