@@ -1,0 +1,11 @@
+http://www.cssscript.com/tag/radial-menu/  :
+
+http://www.cssscript.com/demo/path-style-animated-radial-menu-bloomingmenu-js/
+rapid spin out, radial spin
+
+http://www.cssscript.com/pure-css-css3-animated-radial-menu/
+emits all at once. slower, larger
+
+http://www.cssscript.com/demo/cool-radial-toggle-menu-with-gooey-effect/
+corner spawn. Blurs / Gooeys out into links
+
