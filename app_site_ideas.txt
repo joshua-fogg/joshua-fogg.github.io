@@ -7,7 +7,8 @@ App Ideas
 - use images or objects as visual key to unlock secure data.
 
 - ali; colour palette app; colour wheel, mixer and memory board for colours made or selected.
-
+- Password locker: uses co-ords on image and encryption key to login.
+- bitcoin locker: uses 3d object location to excrypt wallet.
 
 Ted Talk
 - Competitors are all equally qualified to make these products.
