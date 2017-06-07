@@ -8,7 +8,7 @@ text-rendering: auto;
 }
 h1, h2, h3, h4{
   text-decoration: underline;
-  color: #fc4f00;
+  color: Darkgreen; /*underline color*/
 }
 code{
   padding: .2rem .5rem;
@@ -27,11 +27,11 @@ div#wireframes{
   width: auto;
   align-items: flex-end;
 }
-div#content{
-  text-align: justify;
-  text-justify: inter-word;
+div.content{
+  align-content: center;
+  justify-content: flex-end;
   width: 80%;
-  padding: 10%;
+  padding:10%;
 }
 img#index_add{
   width: 70%;
