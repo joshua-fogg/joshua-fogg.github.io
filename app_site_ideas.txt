@@ -9,6 +9,8 @@ App Ideas
 - ali; colour palette app; colour wheel, mixer and memory board for colours made or selected.
 - Password locker: uses co-ords on image and encryption key to login.
 - bitcoin locker: uses 3d object location to excrypt wallet.
+- dot/token voting app.
+- bean-go; business coffee order app
 
 Ted Talk
 - Competitors are all equally qualified to make these products.
