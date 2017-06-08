@@ -1,14 +1,22 @@
 *{
   font-family: 'Josefin Sans';
- text-align: center;
+ text-align: justify;
+ padding-left: 10%;
+ padding-right: 10%;
 text-rendering: auto;
   background-color: black;
   color: #3370cc;
   align-content: center;
 }
-h1, h2, h3, h4{
+h1, h2{
   text-decoration: underline;
   color: Darkgreen; /*underline color*/
+  align-content: center;
+}
+h3, h4{
+  text-decoration: underline;
+  color: Darkblue; /*underline color*/
+  align-content: left;
 }
 code{
   padding: .2rem .5rem;
@@ -19,7 +27,9 @@ code{
     border: 1px solid #E1E1E1;
     border-radius: 4px;
 }
-
+.center{
+  text-align: left;
+}
 img#banner{
 	width: 80%;
 }
