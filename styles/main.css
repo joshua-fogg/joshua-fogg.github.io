@@ -2,7 +2,7 @@
   font-family: 'Josefin Sans';
  text-align: justify;
  text-rendering: auto;
-  background-color: grey;
+  background-color: white;
   color: black;/*#3370cc;*/
   align-content: center;
 }
@@ -76,13 +76,13 @@ width: 80%;
 padding: 10%;
 }
 
-/*navigation list items*/
+/*navigation bar*/
   ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: black;
+      background-color: inherit;
   }
 
   li {
@@ -92,15 +92,15 @@ padding: 10%;
   li a, .dropbtn {
       display: inline-block;
 /*initial navigation bar headings colour*/
-      color: #d7f4f4;
+      color: /*#d7f4f4*/darkgreen; /*colour of the initial heading bar text*/
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
   }
 
   li a:hover, .dropdown:hover .dropbtn {
-      background-color: TEAL;
-      color: #00802b;
+      background-color: #00802b;
+      color: #d7f4f4;/*#00802b;*/
   }
 
   li.dropdown {
@@ -110,8 +110,8 @@ padding: 10%;
   .dropdown-content {
       display: none;
       position: absolute;
-/*background colour for dropdown links*/
-      background-color: pink;
+/*background colour for hovered dropdown links*/
+      background-color: green;
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
@@ -126,13 +126,13 @@ padding: 10%;
       display: block;
       text-align: left;
   }
-
-  .dropdown-content a:hover {background-color: #f1f1f1}
+        /*text parameters for links under active dropdown*/
+  .dropdown-content a:hover {background-color: green;}
 
   .dropdown:hover .dropdown-content {
       display: block;
   }
 
-/*for the c3 hover link*/
+/*for the hover link*/
   a>div { display:none; }
   a:hover>div { display: block; }
