@@ -47,17 +47,25 @@
       <br>
       Parentheses can also be used to invoke a switch statement or function by describing parameters to be passed to a logic statement. Parenthesis are also used to describ function and object data keys or when structuring logical arguments and parameters.
       Examples of these include:
+      <br><br>
       <code>function()</code>
+      <br><br>
       <code>function(p1, ..., pN)</code>
+      <br><br>
       <code>structure(expression)</code>
+      <br><br>
     </p>
     <p>
       <h3>Brackets []</h3>
       Brackets are typically used within Javascript to contain array data sets and allow access to array data through array indexes. Array indexes describe data value(s) placment within the array.
       Examples include:
-      <code>var answers = ['yes','no','maybe']<code>
+      <br><br>
+      <code>var answers = ['yes','no','maybe']</code>
+        <br><br>
       <code> var Bed = [[1,2],[3,4],['bed','camel']]</code>
+        <br><br>
       <code> Bed[2][1] = 'camel'</code>
+      <br>
     </p>
     <p>
       <h3>Braces {}</h3>
@@ -66,10 +74,19 @@
 
     </p>
     <p>
-      <h3>single quotes ''</h3>
-      
-  </p>
-    <h3>double quotes ""</h3>
+      <h3>single quotes '' double quotes ""</h3>
+      Quotes both single and double are used in JavaScript to define strings, which are stores of text. Because strings must be written within quotes, JavaScript will misunderstand strings with quotes within it if the same quote type is used. In teh example below the repeated use of double quotes leads the in text quote of "Vikings" to be read as a variable:
+      <br><br>
+      <code>var y = "We are the so-called "Vikings" from the north." </code>
+      <br><br>
+      <code>var y = "We are the so-called 'Vikings' from the north."</code>
+      <br><br>
+      <code>var y = 'We are the so-called "Vikings" from the north.'</code>
+    </p>
+    <p>
+      <h3>Back-Ticks ``</h3>
+      Back-Ticks have been introduced with ES6, a trademarked scripting-language specification standard by ECMA International. Back-Ticks allow both single and double quotes to utilised in a string as well as allowing multi line strings to be converted into a single line by triggering a template literal. With the ES6 added packages you are able to expression interpolation more readable. For examples see the Mozilla's JavaScript reference page by <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals">clicking here</a>.
+    </p>
   </div>
   <div class ="footer">
     <img src="../img/sunriseset_26.jpg" alt="filler" width=100% height="15%">

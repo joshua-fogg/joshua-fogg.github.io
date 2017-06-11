@@ -1,11 +1,9 @@
 *{
   font-family: 'Josefin Sans';
  text-align: justify;
- padding-left: 10%;
- padding-right: 10%;
-text-rendering: auto;
-  background-color: black;
-  color: #3370cc;
+ text-rendering: auto;
+  background-color: grey;
+  color: black;/*#3370cc;*/
   align-content: center;
 }
 h1, h2{
@@ -23,12 +21,16 @@ code{
     margin: 0 .2rem;
     font-size: 90%;
     white-space: nowrap;
-    background: #F1F1F1;
+    background: inherit;/*#F1F1F1*/;
     border: 1px solid #E1E1E1;
     border-radius: 4px;
 }
 .center{
   text-align: left;
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-content: center;
 }
 img#banner{
 	width: 80%;
@@ -38,7 +40,7 @@ div#wireframes{
   align-items: flex-end;
 }
 div.content{
-  align-content: center;
+  align-self: center;
   justify-content: flex-end;
   width: 80%;
   padding:10%;
