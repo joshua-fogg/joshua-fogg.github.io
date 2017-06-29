@@ -1,4 +1,4 @@
-window.addEventListener("load", function(event) {
+window.addEventListener("load", function(){
     console.log("All engines revving and ready to go: resources finished loading!");
 
 //define structural components ie canvas and 2d location setting.
@@ -32,7 +32,7 @@ function ranColour() {
 // if other value added, return error value.
 function drawCan() {
   var e = Math.round(Math.random() * 7);
-  console.log(e)
+  console.log(e);
   var colouring = ranColour();
   if (e <= 3) {
     //circle
@@ -40,7 +40,7 @@ function drawCan() {
     ccx.arc(CoordX, CoordY, radius, 0, 2 * Math.PI, false);
     ccx.fillStyle = ranColour();
     ccx.fill();
-    ccx.lineWidth = '1';
+    ccx.lineWidth = "1";
     ccx.strokeStyle = ranColour();
     ccx.stroke();
   } else if (e > 3 && e <= 5) {//square
@@ -59,7 +59,7 @@ function drawCan() {
     // fill and colour script
     ccx.fillStyle = ranColour();
     ccx.fill();
-    ccx.lineWidth = '1';
+    ccx.lineWidth = "1";
     ccx.strokeStyle = ranColour();
     ccx.stroke();
   } else {
@@ -68,6 +68,7 @@ function drawCan() {
   }
 }
 setInterval(drawCan, 500);
+})
 
 //could do draw in mouse area. Click to change shape or colour??
 //found bug, coord functions were called as value rather than getting a new variable each time.
