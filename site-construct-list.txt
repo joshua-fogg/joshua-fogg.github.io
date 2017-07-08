@@ -1,0 +1,3 @@
+- Fogg Logo
+- Banner layout based on stacked rhomboids
+- look into backend content system to load content into frame/divs.
