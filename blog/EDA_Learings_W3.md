@@ -57,3 +57,7 @@ Migration = creates tables, columns; is an evolution of change in data structure
  * can only .catch once.
  * used to chain functions
  * cleaner than call back, prevents callback hell.
+  Library = Bluebird.
+ *  .finally() will always run.
+
+ Callback hell = multi layered call back functions that are hard to decypher.
