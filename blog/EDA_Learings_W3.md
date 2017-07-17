@@ -48,3 +48,12 @@ Migration = creates tables, columns; is an evolution of change in data structure
  npm install knex sqlite
  index.js: const knex = require('knex'), const config = require('./knexfile')
  const db = knex(config)
+
+
+ Promsies:
+ * dont take a call back
+ * Resolve OR Reject
+ * .then()   OR .catch()
+ * can only .catch once.
+ * used to chain functions
+ * cleaner than call back, prevents callback hell.
