@@ -30,3 +30,21 @@ Types of Database Management Services (DBMS):
 - Column Based / CBDBMS: Dynamo DB
 - Key-Value Stores: Cassandra, Redis
 - Graph: NeoJS
+
+Relational Databases:
+Sheet===table===Entity
+Column===fields
+row===record
+Object Relational MArkers = Library
+schemas / Metadata = data that describes data. table name, column name, titles.
+Data = record.
+CLI = command Line Interface
+DB uses snakecase, underscore joining. JS uses camelCase .: can require conversion.
+Don't edit schemas, create new Schemas.
+
+Migration = creates tables, columns; is an evolution of change in data structure.
+ -- ie how many table do you need.
+
+ npm install knex sqlite
+ index.js: const knex = require('knex'), const config = require('./knexfile')
+ const db = knex(config)
