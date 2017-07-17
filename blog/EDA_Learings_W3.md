@@ -60,4 +60,4 @@ Migration = creates tables, columns; is an evolution of change in data structure
   Library = Bluebird.
  *  .finally() will always run.
 
- Callback hell = multi layered call back functions that are hard to decypher.
+ Callback hell = multi layered call back functions that are hard to decipher.
