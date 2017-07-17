@@ -8,9 +8,10 @@ Server.js: configures server settings & data tepmplate. server.set, server.engin
 Routes.js: set routes & router. requires express and router, "const router = express.Router"
 
 
-
-
-
+Handlebars: Server Rendering
+{{{body}}}
+{{layout}}
+{{< partial}}
 
 Heroku:
 port sensor: const port = process.env.port  || 3000
