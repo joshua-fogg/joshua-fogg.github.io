@@ -22,3 +22,11 @@ Positives:
 <li>MySQL & Maria: OS </li>
 <li>KNEX.js OS </li>
 </ul>
+
+Types of Database Management Services (DBMS):
+- Relational / RDBMS: MySQL, Oracle, MS SQL; most common type.
+- Document / DDBMS: MongoDB
+- Object / ODBMS: Jade
+- Column Based / CBDBMS: Dynamo DB
+- Key-Value Stores: Cassandra, Redis
+- Graph: NeoJS
