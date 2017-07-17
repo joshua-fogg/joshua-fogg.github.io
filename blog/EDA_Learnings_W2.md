@@ -4,7 +4,11 @@ JS objects: uses ' ' for strings but not for keys. keys dont need quotes.
 Server Side Rendering:
 Index.js: starts server. requires; express, routes, setting server or app to express(), defining routes.
 Server.js: configures server settings & data tepmplate. server.set, server.engine(main template etc)
-          - requires: 
+          - requires: express, hbs, routes, set server to express, server.enginge.
+Routes.js: set routes & router. requires express and router, "const router = express.Router"
+
+
+
 
 
 
