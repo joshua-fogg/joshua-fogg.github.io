@@ -1,3 +1,13 @@
+JSON OBjects: uses " " for key and values.
+JS objects: uses ' ' for strings but not for keys. keys dont need quotes.
+
+Server Side Rendering:
+Index.js: starts server. requires; express, routes, setting server or app to express(), defining routes.
+Server.js: configures server settings & data tepmplate. server.set, server.engine(main template etc)
+          - requires: 
+
+
+
 Heroku:
 port sensor: const port = process.env.port  || 3000
 **sets port to either environment port or default 3000
