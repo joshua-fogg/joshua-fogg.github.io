@@ -15,6 +15,7 @@ App Ideas
         -- personalised roadtrip App. - uses gps to track record, shortlists music listened to on road trip, adds photos taken on phone to editor.
             -- Current / Glide
             -- need API for (Francky Samson)
+            -- sync with Tezlab or have similar
             
 
 - Native flora: photo in field will ID plant to species level.
