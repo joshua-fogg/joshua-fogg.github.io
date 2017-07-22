@@ -12,10 +12,14 @@ App Ideas
         - : Tesla to SLACK INtegration: https://github.com/heikkipora/tesla-slack
         -- party trick app??
         -- customised dashboard?? --EVE
+        -- personalised roadtrip App. - uses gps to track record, shortlists music listened to on road trip, adds photos taken on phone to editor.
+            -- Current / Glide
+            -- need API for (Francky Samson)
+            
 
 - Native flora: photo in field will ID plant to species level.
 - Bird call: records song and tells you what bird it is.
-- lets you custome arrannge dual monitor borders to match local environment, ie staged monitors.
+- lets you custome arrannge dual monitor borders to match local environment, ie staged monitors. --Xrandr
 - use images or objects as visual key to unlock secure data.
 
 - ali; colour palette app; colour wheel, mixer and memory board for colours made or selected.
