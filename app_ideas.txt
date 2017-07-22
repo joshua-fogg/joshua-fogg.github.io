@@ -10,6 +10,8 @@ App Ideas
         - : RUBY API: https://github.com/timdorr/model-s-api
         - : NODEJS TESLA API: https://github.com/mseminatore/TeslaJS
         - : Tesla to SLACK INtegration: https://github.com/heikkipora/tesla-slack
+        -- party trick app??
+        -- customised dashboard?? --EVE
 
 - Native flora: photo in field will ID plant to species level.
 - Bird call: records song and tells you what bird it is.
