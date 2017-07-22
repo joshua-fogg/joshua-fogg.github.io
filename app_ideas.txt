@@ -1,9 +1,16 @@
 App Ideas
 
 - Local; app that allows users to meet up and be shown around by a local resident.
-- Edible Bush Food App:
+- Edible Bush Food App: using edible bush tukkah
 - Gear Compare: scuba gear comparisons
-- 
+- Website for Biotech Company: ie redo InGen - Jurrassic Park
+- Look at JS Biotech packages / /modules & tweak
+- create DNA package... -> bionode / visualiser / 
+- TESLA APP: 
+        - : RUBY API: https://github.com/timdorr/model-s-api
+        - : NODEJS TESLA API: https://github.com/mseminatore/TeslaJS
+        - : Tesla to SLACK INtegration: https://github.com/heikkipora/tesla-slack
+
 - Native flora: photo in field will ID plant to species level.
 - Bird call: records song and tells you what bird it is.
 - lets you custome arrannge dual monitor borders to match local environment, ie staged monitors.
