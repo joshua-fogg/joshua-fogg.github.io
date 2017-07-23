@@ -16,3 +16,6 @@ resources:
 http://kangax.github.io/compat-table/es6/ comparison table of es6 technologies and compatablities
 
 https://babeljs.io/
+
+
+https://slides.com/joshua-fogg
