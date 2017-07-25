@@ -1,0 +1,37 @@
+{
+  "imgref": "#",
+
+
+  "beginning": "initial text",
+
+  /*"leprechaun": [{*/
+  "stories": [{
+      "id": 1,
+      "story": "story text",
+      "options": [
+        { "option": "Punch Him in The Nuts" },
+        { "option": "Give Him a Daisy" }
+      ]
+    },
+
+    /*"punched": */
+    {
+      "id": 2,
+      "story": "story text",
+      "options": [
+        { "option": "continue" },
+        { "option": "Go seek your friend" }
+      ]
+    },
+    /*"daisy":*/
+    {
+      "id": 3,
+      "story": "story text",
+      "options": [
+        { "option": "continue" },
+        { "option2": "continue" }
+      ]
+    }
+  ]
+
+}

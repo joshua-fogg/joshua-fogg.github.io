@@ -1,0 +1,15 @@
+{
+    "imgref": "#",
+
+    "ending": "initial text",
+
+    /* "Bad Ending": */
+    {
+        "id": 1,
+        "Picture": "/public/pictures/dead-mimo.jpg",
+        "option": "You ended Badly !!",
+       
+    },
+    
+
+}
