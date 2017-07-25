@@ -17,6 +17,11 @@ App Ideas
             -- need API for (Francky Samson)
             -- sync with Tezlab or have similar https://teslab.happyfuncorp.com/
             
+- Eletronic Reciept App.
+        - cashier terminal sends intinerised info to a mobile data store
+        - cashier terminal can email reciept to predefined address for acocunt
+        
+
 
 - Native flora: photo in field will ID plant to species level.
 - Bird call: records song and tells you what bird it is.
