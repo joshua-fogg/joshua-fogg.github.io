@@ -20,18 +20,26 @@ App Ideas
 - Eletronic Reciept App.
         - cashier terminal sends intinerised info to a mobile data store
         - cashier terminal can email reciept to predefined address for acocunt
-        
+
 
 
 - Native flora: photo in field will ID plant to species level.
+
 - Bird call: records song and tells you what bird it is.
+
 - lets you custome arrannge dual monitor borders to match local environment, ie staged monitors. --Xrandr
+
 - use images or objects as visual key to unlock secure data.
 
+
 - ali; colour palette app; colour wheel, mixer and memory board for colours made or selected.
+
 - Password locker: uses co-ords on image and encryption key to login.
+
 - bitcoin locker: uses 3d object location to excrypt wallet.
+
 - dot/token voting app.
+
 - bean-go; business coffee order app
 
 Ted Talk
