@@ -1,0 +1,47 @@
+* {
+    background-color: grey;
+    color: white;
+    align-content: center;
+}
+
+.page {}
+
+.post-title {
+    font-weight: bold;
+}
+
+.posts {
+    width: 70%;
+}
+
+.post-date {
+    font-style: italic;
+}
+
+.main-content {
+    display: flex;
+    word-wrap: break-word;
+    flex-direction: ltr;
+    width: 95%;
+    margin-right: 2.5%;
+}
+
+.Header {
+    text-align: center;
+    width: 100%;
+    height: 5%;
+}
+
+.Content {
+    flex-wrap: wrap;
+    padding: auto;
+}
+
+.foot {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.otherBlog-item {
+    height: 10%;
+}
