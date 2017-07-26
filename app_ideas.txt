@@ -1,12 +1,20 @@
 App Ideas
 
-- Local; app that allows users to meet up and be shown around by a local resident.
-- Edible Bush Food App: using edible bush tukkah
+- Local; app that allows users to meet up and be shown around by a local resident. -> showaround.com
+- Edible Bush App:
+        -- NZ Flora
+        -- NZ Edible plants
+        
+-- New Zealand Foods
+
 - Gear Compare: scuba gear comparisons
 - Website for Biotech Company: ie redo InGen - Jurrassic Park
 - Look at JS Biotech packages / /modules & tweak
 - create DNA package... -> bionode / visualiser / 
-- TESLA APP: 
+
+
+
+- TESLA APPS: 
         - : RUBY API: https://github.com/timdorr/model-s-api
         - : NODEJS TESLA API: https://github.com/mseminatore/TeslaJS
         - : Tesla to SLACK INtegration: https://github.com/heikkipora/tesla-slack
