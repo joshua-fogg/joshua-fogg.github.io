@@ -35,6 +35,7 @@ Primary Flavours:
 
 - DOM based:
     FF- XSS vulnerabilities were first found in applications that performed all data processing on the server side
+    -- Angular.js = built-in countermeasures against this and other types of attack
     -- DOM-based XSS attack, the malicious data does not touch the web server. Rather, it is being reflected by the JavaScript code, fully on the client side
 
 
