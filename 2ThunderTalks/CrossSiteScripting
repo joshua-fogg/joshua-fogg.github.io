@@ -1,0 +1,42 @@
+'javascript is dangerous, it can do anything to the webpage' - Copmuterphile / Tom Scott's 2013
+
+Microsoft security-engineers introduced the term "cross-site scripting" in January 2000.
+
+
+https://www.youtube.com/watch?v=L5l9lSnNMxg - Cracking Websites with Cross Site Scripting - Computerphile
+
+https://www.symantec.com/security-center/threat-report
+
+
+ 2008 Symantec internet Security threat report
+ http://eval.symantec.com/mktginfo/enterprise/white_papers/b-whitepaper_exec_summary_internet_security_threat_report_xiii_04-2008.en-us.pdf
+    2007: Malicious Activity Became Web Based
+
+
+
+cross-site scripting: XSS
+- enables attackers to inject client-side script into web pages viewed by other users.
+- used by attackers to bypass access controls such as SAME-ORigin policy.
+Primary Flavours:
+
+- Reflected/ non-persistant:
+    - temporary behaviour. I.e putting script tag in search bar. --> accunetix.com
+    - putting script in input field.
+    - anytime a user sends input to server/ router and recieves a relfected script. ie incorrect login page using login name or password.
+            can use email phishing to get user to login. either replace login page with mock or use javascript to retrieve cookie interval to retrieve login credentials.
+
+
+- Stored - most devastating
+    - can put scripts throughout signup page. creates user where upon login will run scripts
+    - everytime field is utilised it runs script
+    - requires vulnerable application. database storage and retrieved.
+    - attacker sends html or javascript to application instead of normal input. Stored and awaits recall. victim loads page and lods injected scripts.
+
+
+- DOM based:
+    - 
+
+
+Fixes:
+   reflected  ++ input validation and output sanitisation can prevent this.
+   stored     ++ easily fixed. no input validation filter && no output sanitisation comming out.
