@@ -22,7 +22,7 @@ Primary Flavours:
 - Reflected/ non-persistant:
     - temporary behaviour. I.e putting script tag in search bar. --> accunetix.com
     - putting script in input field.
-    - anytime a user sends input to server/ router and recieves a relfected script. ie incorrect login page using login name or password.
+    - anytime a user sends input to server/ router and recieves a reflected script. ie incorrect login page using login name or password.
             can use email phishing to get user to login. either replace login page with mock or use javascript to retrieve cookie interval to retrieve login credentials.
 
 
@@ -30,13 +30,14 @@ Primary Flavours:
     - can put scripts throughout signup page. creates user where upon login will run scripts
     - everytime field is utilised it runs script
     - requires vulnerable application. database storage and retrieved.
-    - attacker sends html or javascript to application instead of normal input. Stored and awaits recall. victim loads page and lods injected scripts.
+    - attacker sends html or javascript to application instead of normal input. Stored and awaits recall. victim loads page and loads injected scripts.
 
 
 - DOM based:
-    FF- XSS vulnerabilities were first found in applications that performed all data processing on the server side
+    FunFact (FF)- XSS vulnerabilities were first found in applications that performed all data processing on the server side
     -- Angular.js = built-in countermeasures against this and other types of attack
     -- DOM-based XSS attack, the malicious data does not touch the web server. Rather, it is being reflected by the JavaScript code, fully on the client side
+    --type-0 XSS
 
 
 Fixes:
