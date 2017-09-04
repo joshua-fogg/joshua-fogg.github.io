@@ -15,4 +15,4 @@ Challenges:
 6. longest hours given from team. not including travel time too and from course.
 7. balanced team emotions && often peace keeper
 8. learned full stack development
-9. learnt additional Auth0 techology.
+9. learnt additional Auth0 technology.
