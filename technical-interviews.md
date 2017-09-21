@@ -83,6 +83,13 @@ Questions: indepth questions.
 6. Whats your data retention policy? do you mine it, anonymise it?
 
 Tips:
+
 active git profile: top 6, pin to github profile. Readmes, Identify to do list, build up body of work.
+
+js docs = style of commenting that parses code into commented doc.
+
+comment if adding value. - - like regex func or a nested fat arrow function / where code is unclear or implementing mathematical functions (comment where its from and purpose)
+
+talk through challenge if doing it in person
 
 - - Eric Elliot.
