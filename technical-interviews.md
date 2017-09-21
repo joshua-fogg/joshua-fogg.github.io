@@ -74,11 +74,13 @@ Interview:
 - dont be afraid that I dont want to giv up on finding a solution to a question.
 
 
-Questions:
+Questions: indepth questions.
 1. how is team structured
 2. what is your testing scenario
 3. what are your deployment strategies
 4. how are you doing continuous depoyment / integration?
 5. Do you do charitable donations?
 6. Whats your data retention policy? do you mine it, anonymise it?
-7. 
+
+Tips:
+active git profile.
