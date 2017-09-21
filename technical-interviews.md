@@ -54,4 +54,5 @@ Building From Scratch: package.json, react, webpack etc. use minimal boilerplate
 - think about stories: good and bad aspects ive seen about being a dev on a team.
 - Agile: retrospectives (ensures continual improvement), sprint planning, uses of these. Swim lanes -> waffel, trello etc.
 - Full stack -> written client and serverside code. Differences in coding ability. 
-- Debugging on client and server-side. --> powerful --> increases knowledge vs console.log()
+- Debugging on client and server-side. --> powerful --> increases knowledge vs console.log(), Lights on vs Torch in dark room.
+- Built many projects -> wireframing, scoping, building practice, personal to friday projects.
