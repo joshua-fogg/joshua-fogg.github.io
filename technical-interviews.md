@@ -9,3 +9,7 @@ start of interview:
 - [ ] They may not have right perspective for interviewing. -> navigate this. / may not be prepared.
 - [ ] If writing code then use PC -> removes semi-colons and formatting issues etc. / could we do it on the computer?? together??
 - [ ] Yoman -> generator. type yo generate test --> boilerplate.
+
+Questions for language:
+- [ ] ask about limitations of question:
+    - [ ] ie roman numerals, how high to goto.
