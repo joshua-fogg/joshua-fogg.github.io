@@ -56,3 +56,17 @@ Building From Scratch: package.json, react, webpack etc. use minimal boilerplate
 - Full stack -> written client and serverside code. Differences in coding ability. 
 - Debugging on client and server-side. --> powerful --> increases knowledge vs console.log(), Lights on vs Torch in dark room.
 - Built many projects -> wireframing, scoping, building practice, personal to friday projects.
+
+Check Technical Tests:
+- How loops are done, for vs reduce, functional concepts.
+- Map, filter, find, for each.
+- nesting is a smell -> makes it unclear.
+- keep functions minimal in size, more than 9 nines == look how to break it up.
+- Diligent naming: verb if function, singular if singular, plural if array.
+- Unit tests.
+
+Interview:
+- are they coding when unpaid?
+- love industry?
+- get excited -- yo check this!
+
