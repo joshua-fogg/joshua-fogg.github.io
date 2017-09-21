@@ -83,4 +83,6 @@ Questions: indepth questions.
 6. Whats your data retention policy? do you mine it, anonymise it?
 
 Tips:
-active git profile.
+active git profile: top 6, pin to github profile. Readmes, Identify to do list, build up body of work.
+
+Eric Elliot.
