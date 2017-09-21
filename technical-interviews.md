@@ -3,6 +3,10 @@ When going into interview:
 - [ ] current side-projects
 - [ ] Remember why I like coding
 - [ ] Take PC with you
+- [ ] Take paper && pen: notes && pad
+- [ ] 3 paper copies of CV
+- [ ] Laptop with project ready, Demo, code and terminal.
+- [ ] Layout timeframe.
 
 start of interview:
 - [ ] Is interviewer nervous or new to doing this. -> empathise, set them up to interview well.
@@ -67,4 +71,14 @@ Check Technical Tests:
 
 Interview:
 - Are they coding when unpaid? - Love industry? - Get excited -- yo check this!
-- 
+- dont be afraid that I dont want to giv up on finding a solution to a question.
+
+
+Questions:
+1. how is team structured
+2. what is your testing scenario
+3. what are your deployment strategies
+4. how are you doing continuous depoyment / integration?
+5. Do you do charitable donations?
+6. Whats your data retention policy? do you mine it, anonymise it?
+7. 
