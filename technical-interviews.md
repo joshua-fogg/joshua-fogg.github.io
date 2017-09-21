@@ -38,3 +38,20 @@ Prototype chain && Prototypal inheritance -> JS prototype inheritance.
 Inhertiance
 
 Hack Reactor on udacity.
+
+Create simple fullstack app.
+Building From Scratch: package.json, react, webpack etc. use minimal boilerplate.
+- [ ] think about how to build it quickly, full stack.
+
+
+**EDA difference:**
+- [ ] writing unit tests
+- [ ] integration tests
+- Differences
+- Pair programming experiences: good and bad.
+- Friday projects, pair programming.
+- GIT on teams, what makes it fall off the rails.
+- think about stories: good and bad aspects ive seen about being a dev on a team.
+- Agile: retrospectives (ensures continual improvement), sprint planning, uses of these. Swim lanes -> waffel, trello etc.
+- Full stack -> written client and serverside code. Differences in coding ability. 
+- Debugging on client and server-side. --> powerful
