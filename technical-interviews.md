@@ -29,4 +29,12 @@ start of interview:
   complete within a few days. ie 1-2. ie get it thursday and send it in monday. (dont include weekend).
 
 **Variable scoping:**
+function scoping -> 
+global scoping ->
+var vs let && const scopes
+**This** keyword: window object, object, null...
+Call apply and bind -> differences
+Prototype chain && Prototypal inheritance -> JS prototype inheritance.
+Inhertiance
 
+Hack Reactor on udacity.
