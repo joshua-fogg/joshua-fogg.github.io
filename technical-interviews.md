@@ -85,4 +85,4 @@ Questions: indepth questions.
 Tips:
 active git profile: top 6, pin to github profile. Readmes, Identify to do list, build up body of work.
 
-Eric Elliot.
+- - Eric Elliot.
