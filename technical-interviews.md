@@ -2,7 +2,10 @@
 When going into interview:
 - [ ] current side-projects
 - [ ] Remember why I like coding
+- [ ] Take PC with you
 
 start of interview:
-- [ ] is interviewer nervous or new to doing this. -> empathise, set them up to interview well.
-- [ ] they may not have right prospective for interviewing. -> navigate this.
+- [ ] Is interviewer nervous or new to doing this. -> empathise, set them up to interview well.
+- [ ] They may not have right perspective for interviewing. -> navigate this. / may not be prepared.
+- [ ] If writing code then use PC -> removes semi-colons and formatting issues etc. / could we do it on the computer?? together??
+- [ ] Yoman -> generator. type yo generate test --> boilerplate.
