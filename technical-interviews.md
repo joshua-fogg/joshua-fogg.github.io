@@ -66,7 +66,7 @@ Check Technical Tests:
 - Unit tests.
 
 Interview:
-- are they coding when unpaid?
-- love industry?
-- get excited -- yo check this!
-
+- Are they coding when unpaid?
+- Love industry?
+- Get excited -- yo check this!
+- 
