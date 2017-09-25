@@ -99,7 +99,7 @@ padding: 10%;
   }
 
   li a:hover, .dropdown:hover .dropbtn {
-      background-color: #00802b;
+      background-color: inherit;
       color: #d7f4f4;/*#00802b;*/
   }
 
