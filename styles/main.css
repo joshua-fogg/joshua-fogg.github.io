@@ -127,7 +127,7 @@ padding: 10%;
       text-align: left;
   }
         /*text parameters for links under active dropdown*/
-  .dropdown-content a:hover {background-color: green;}
+  .dropdown-content a:hover {background-color: #d7f4f4;}
 
   .dropdown:hover .dropdown-content {
       display: block;
