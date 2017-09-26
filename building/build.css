@@ -1,8 +1,21 @@
 *{
-  color: white;
-  background-image: url("./pexels-sunset-windmill.jpg");
+  color: grey;
+}
+.container{
+  background: url("pexels-sunset-windmill.jpeg");
+  width:90%;
+  height: 100%;
 }
 
 .link-p{
   font-weight: bold;
+}
+.center{
+  margin:auto;
+  width:50%;
+  padding: 10px;
+  text-align: center;
+}
+.content{
+  padding-top:5%;
 }
