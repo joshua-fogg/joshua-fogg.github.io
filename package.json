@@ -4,7 +4,8 @@
   "description": "A personal blog and showcase area",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "nodemon && webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/joshua-fogg/joshua-fogg.github.io#readme",
   "dependencies": {
+    "nodemon": "^1.12.1",
     "webpack": "^3.6.0"
   }
 }
