@@ -21,7 +21,11 @@
   },
   "homepage": "https://github.com/joshua-fogg/joshua-fogg.github.io#readme",
   "dependencies": {
+    "express": "^4.16.1",
     "nodemon": "^1.12.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2",
     "webpack": "^3.6.0"
   }
 }
