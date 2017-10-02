@@ -1,0 +1,22 @@
+{
+  "name": "joshua-fogg.github.io",
+  "version": "1.0.0",
+  "description": "A personal blog and showcase area",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshua-fogg/joshua-fogg.github.io.git"
+  },
+  "keywords": [
+    "Fogg"
+  ],
+  "author": "Joshua Fogg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshua-fogg/joshua-fogg.github.io/issues"
+  },
+  "homepage": "https://github.com/joshua-fogg/joshua-fogg.github.io#readme"
+}
