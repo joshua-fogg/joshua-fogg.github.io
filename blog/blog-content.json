@@ -26,12 +26,13 @@
         {
           "heading": "Reflections from Shereed Kitchen on Kitchen vs Table",
           "content": "<li> Kitchen mindset: what can I create. I have the ability to do and create.</li><li> Table mindset: What will I consume / order. Low outcome long term.</li> <li> being able to help and co-construct will give us the greatest creativity and development.</li>"
-        },{
-          "images": ["https://mtgcommunityblog.files.wordpress.com/2015/12/road-ahead.jpg"]
-        }
-      ]
-    },
-    {
+        }],
+        "images": [
+          {
+            "image-bottom": "https://mtgcommunityblog.files.wordpress.com/2015/12/road-ahead.jpg"
+          }
+        ]
+    },{
       "page-title": "",
       "content": [
         {
