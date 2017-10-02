@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/joshua-fogg/joshua-fogg.github.io/issues"
   },
-  "homepage": "https://github.com/joshua-fogg/joshua-fogg.github.io#readme"
+  "homepage": "https://github.com/joshua-fogg/joshua-fogg.github.io#readme",
+  "dependencies": {
+    "webpack": "^3.6.0"
+  }
 }
