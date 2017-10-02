@@ -1,0 +1,32 @@
+export default blogContent = {
+  "cultural": [
+    {
+      "page-title": "Reflection",
+      "content": [
+        {
+          "heading":"What's my take on the EDA experience? ",
+          "content":"I think that the EDA experience causes you to own up to your mistakes and step out from unde your shell. </p> <p> It seems the majority of learning is directed to help force you to enable yourself, to motivate yourself and be the change you want to see."
+        },{
+          "heading":"What are your impressions?",
+          "content":"My impressions of EDA so far have been based on previous EDA students I have met. They all spoke very highly and passionately about the course and it's graduates."
+        },{
+          "heading":"How do you see yourself engaging with this type of culture?",
+          "content":"I'm looking forward to meeting my cohort and developing a culture of our own. "
+        },{
+          "heading":"Have your expectations of EDA changed? If so, how?",
+          "content":"My exectations haven't changed since enrolling, the experience so far has been how I thought it would be."
+        },{
+          "heading":"Are you excited to participate in this kind of learning environment? Does it make you nervous?",
+          "content":"I will admit I am nervous of the uncertainties but I look forward to crafting new skillsets, taking an adventure and meeting some new comrades. "
+        },{
+          "heading":"Reflections from Shereed Kitchen on Kitchen vs Table",
+          "content":"<li> Kitchen mindset: what can I create. I have the ability to do and create.</li><li> Table mindset: What will I consume / order. Low outcome long term.</li> <li> being able to help and co-construct will give us the greatest creativity and development.</li>"
+        },{
+          heading:"",
+          content:""
+        }
+      ]
+  }],
+  "technical": [],
+  "other":[]
+}
