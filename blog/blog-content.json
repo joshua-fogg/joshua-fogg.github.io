@@ -33,6 +33,70 @@
           }
         ]
     },{
+      "page-title": "Time and Habbits",
+      "content": [
+        {
+          "heading": "Timebox and Habit Techniques",
+          "content": "Well the idea of the Pomodoro didn't quite catch as I think by 25 minutes I would only just be getting fired up on a task. Prefering the longer stunts and sharing a last name of Fogg... well I went with the Fogg technique. Keeping it simple and clear feels this best approach at the present.  It enalbes me to create clear objectives and be clear about what I am achieving today."
+        },
+        {
+          "heading": "What I Found Interesting? ",
+          "content": "The diveristy of options availbale was nice to see. It was good to know that people can work quite differently."
+        },
+        {
+          "heading": "What I found Worked",
+          "content": "I enjoyed the Fogg idea but I think timeboxing is a key aspect to rotating through problems so that a fresh line of problem solving an be brought to the task. I think mixing the Fogg technique with an adapted Pomodoro approach would be best for me."
+        },
+        {
+          "heading": "Further Trials",
+          "content": "I will keep mixing it up when I feel I am getting stuck on something. This shoudl keep it interesting :) and keep me learning and engaged with the process."
+        }
+      ],
+      "images": {}
+    },{
+      "page-title": "Emotional Intelligence",
+      "content": [
+        {
+          "heading": "Emotional Intelligence:",
+          "content": "Search Inside yourself, 2014; Chade-Meng Tan, That Google Guy. Chapter 1. </p><p> The first chapter's teachings. </p><p> The first chapter reminded me of many elements and teachings I had been exposed to while growing up. Meng introduces the reader to the idea of self awareness and self-regulation, using the term `Emotional Intelligence` to describe them."
+        },
+        {
+          "heading": "What is emotional intelligence",
+          "content": "Emotional Intelligence is the capacity to which we are able to be aware of, control, and express our emotions. It allows us to be mindful of our emotional state and to allow us to have more control over our emotions and reactions. </p><p> Emotional intelligence allows us to navigate interpersonal relationships in a rational state and allows us to more effectively communicate with our work team, family and extended social circles."
+        },
+        {
+          "heading": "The benefits of emotional intelligence",
+          "content": "<ul>The benefit of emotional intelligence include: <li> Better work performance</li><li> Outstanding leadership capability </li><li> The ability to create happiness </li> </ul> These three key areas assist a practicer to establish a high achievement drive, generate influence ability and conceptual thinking by boosting analytical abilities, confidence and communication skills."
+        },
+        {
+          "heading": "Techniques for emotional intelligence:",
+          "content": "<ul><li> Attention Training - training to consciously focus and calm your mind. </li><li> Self-Knowledge and Self-Mastery - understanding that your emotions are a part of you and reveal yourself to you, and they do not control you </li><li> Creating Mental Habits - mindfulness meditation. This allows the user to flex their attention span and help remove mental stressors.</li>"
+        }],
+        "images": {}
+    },{
+      "page-title": "Meditation Process",
+      "content": [
+        {
+          "heading": "Process Over Product",
+          "content": "Learn how the rocket works, to make better rockets in the future."
+        },
+        {
+          "heading": "What did I think about meditation before chapter 2",
+          "content": "Mediation has come up multiple times so far in my life. However I can say I am not a regular practicer. I go through short intervals every few years typically after a large or stressful life event before falling of teh band wagon after a few weeks. </p><p> It's an interesting thought that even though I know it is meant to help me but as it's not a physical thing I have found it hard to commit to despite being exposed to meditation and mindfulness from a young age. This year I hope to change this aspect."
+        },
+        {
+          "heading": "New learnings from chapter 2",
+          "content": "From chapter 2 I learnt that meditation trains meta-attention. This is given as an analogy of a bike and rider wishing to ride in a straight line. Meta-attention in this scenario is the repeated correction needed to maintain a straight line of travel, meaning the relatively straight line of movement in this analogy is attention. It was interesting reading about the articles that covered the impact of mindfulness meditation on physiologyical outcomes, i.e. psoriasis healing time / prevalence and attention-blink frequencies."
+        },
+        {
+          "heading": "My opinions of the prescribed meditation techniques",
+          "content": "In the past I have been taught breathing focused and visualisation techniques. I was initially recommended breathing awareness to start with as it would be easy for a beginner to grasp. Being stiff due to my time infront of screens has made it difficult to do much sitting meditation in the <a> 7 point pose <div><img src=`../img/meditation_sitting.png` height=`10%`></div></a> for this reason I also prefer the walking meditation or active meditation. It also gives a greater endorphine return as exercise is being incorporated into the practice.... plus I can tend to have a few too many coffees so this helps walk it off..."
+        }
+      ],
+        "images": {
+          "image": "<img src='../img/sunriseset_26.jpg' alt='filler' width='100%' height='15%'>"
+        }
+    },{
       "page-title": "",
       "content": [
         {
@@ -50,25 +114,40 @@
         {
           "heading": "",
           "content": ""
-        },
-        {
-          "heading": "",
-          "content": ""
-        },
-        {
-          "heading": "",
-          "content": ""
-        },
-        {
-          "heading": "",
-          "content": ""
-        },
-        {
-          "images": {}
-        }
-      ]
+        }],
+        "images": {}
     }
   ],
   "technical": [],
-  "other": []
+  "other": [],
+  "habbits": [
+    {
+      "name": "Reflects",
+      "note": ""
+    },{
+      "name": "Tidy",
+      "note": ""
+    },{
+      "name": "Play",
+      "note": ""
+    },{
+      "name": "Persevere",
+      "note": ""
+    },{
+      "name": "Explore",
+      "note": "You can do many things with JavaScript. There's a big world out there for you to explore. <br>'If you haven't found something strange during the day, it hasn't been much of a day.' — John Archibald Wheeler"
+    },{
+      "name": "Communicate",
+      "note": "Web developers need excellent communication skills - for working together on problems, sharing difficulties, finding solutions, managing client and manager expectations, building systems that talk to each other, and writing readable code.</p><p>Good communication leads to good relationships, less stress and better work. This course is an excellent chance for you to work on your communication skills - you'll need them at every step.</p><br /> <p>That which we are capable of feeling, we are capable of saying. — Cervante"
+    },{
+      "name": "Equanimity",
+      "note": "<i>Equanimity (Latin: æquanimitas having an even mind; aequus even animus mind/soul) is a state of psychological stability and composure which is undisturbed by experience of or exposure to emotions, pain, or other phenomena that may cause others to lose the balance of their mind.</i> - Wikipedia"
+    },{
+      "name": "Hone",
+      "note": ""
+    },{
+      "name": "Share",
+      "note": "The term open source refers to something that can be modified and shared because its design is publicly accessible."
+    }
+  ]
 }
