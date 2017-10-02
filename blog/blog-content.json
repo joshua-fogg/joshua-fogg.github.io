@@ -118,8 +118,69 @@
         "images": {}
     }
   ],
-  "technical": [],
-  "other": [],
+  "technical": [{
+    "page-title": "",
+    "content": [
+      {
+        "heading": "",
+        "content": ""
+      },
+      {
+        "heading": "",
+        "content": ""
+      },
+      {
+        "heading": "",
+        "content": ""
+      },
+      {
+        "heading": "",
+        "content": ""
+      }],
+      "images": {}
+  },{
+    "page-title": "",
+    "content": [
+      {
+        "heading": "",
+        "content": ""
+      },
+      {
+        "heading": "",
+        "content": ""
+      },
+      {
+        "heading": "",
+        "content": ""
+      },
+      {
+        "heading": "",
+        "content": ""
+      }],
+      "images": {}
+  }
+],
+  "other": [{
+    "page-title": "",
+    "content": [
+      {
+        "heading": "",
+        "content": ""
+      },
+      {
+        "heading": "",
+        "content": ""
+      },
+      {
+        "heading": "",
+        "content": ""
+      },
+      {
+        "heading": "",
+        "content": ""
+      }],
+      "images": {}
+  }],
   "habbits": [
     {
       "name": "Reflects",
@@ -151,3 +212,25 @@
     }
   ]
 }
+// template
+// {
+//   "page-title": "",
+//   "content": [
+//     {
+//       "heading": "",
+//       "content": ""
+//     },
+//     {
+//       "heading": "",
+//       "content": ""
+//     },
+//     {
+//       "heading": "",
+//       "content": ""
+//     },
+//     {
+//       "heading": "",
+//       "content": ""
+//     }],
+//     "images": {}
+// }
