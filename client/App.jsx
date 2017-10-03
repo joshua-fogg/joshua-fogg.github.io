@@ -8,8 +8,9 @@ export default class App extends React.Component {
 
   render () {
     return (
-      <div className="container">
-        
+      <div id="App">
+        Hello Blue Sky
+        <script src='bundle.js' />
       </div>
     )
   }

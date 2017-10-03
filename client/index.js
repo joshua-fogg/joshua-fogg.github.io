@@ -1,15 +1,15 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 
-import App from './client/App.jsx'
+import App from './client/App'
 
 document.addEventListener('DOMContentLoaded', () => {
   render(
-    <BrowserRouter >
+    <Router>
       <App />
-    </BrowserRouter>
+    </Router>
     ,
-    document.getElementById('app')
+    document.getElementById('App')
   )
 })
