@@ -10,7 +10,6 @@ export default class App extends React.Component {
     return (
       <div id="App">
         Hello Blue Sky
-        <script src='bundle.js' />
       </div>
     )
   }
