@@ -1,22 +1,20 @@
 import React from 'react'
-import { Route, Switch, HashRouter as Router } from 'react-router-dom'
+import { Route, HashRouter as Router } from 'react-router-dom'
 import { render, ReactDOM } from 'react-dom'
 
 // component imports go here
 import Header from './Header'
 
-class App extends React.Component {
+const App = () => {
 
-  render () {
-    return (
-      <Router>
+  return (
+    <Router>
       <div id="App">
         Hello Blue Sky
-        <Route to='/' component={Header}/>
+        <Route to='/' component={Header} />
       </div>
-      </Router>
-    )
-  }
+    </Router>
+  )
 }
 
 export default App

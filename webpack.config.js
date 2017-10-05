@@ -10,7 +10,10 @@ module.exports = {
     loaders: [{
       loader: 'babel-loader',
       test: /\.jsx?$/,
-      exclude: /node_modules/
+      exclude: /node_modules/,
+      query: {
+        presets:['react']
+      }
     }]
   },
   resolve: {
