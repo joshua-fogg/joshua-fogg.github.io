@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --watch",
     "start": "node server",
-    "dev2":"nodemon --watch ./server.js"
+    "dev2": "nodemon --watch ./server.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "path": "^0.12.7",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "webpack": "^3.6.0"
   }
