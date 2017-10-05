@@ -6,10 +6,7 @@ import App from './client/App'
 
 document.addEventListener('DOMContentLoaded', () => {
   render(
-    <Router>
-      <App />
-    </Router>
-    ,
-    document.getElementById('App')
+    <App />,
+    document.getElementById('app')
   )
 })
