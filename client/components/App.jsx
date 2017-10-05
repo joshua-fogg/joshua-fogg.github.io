@@ -7,14 +7,14 @@ import Header from './Header'
 
 const App = () => {
 
-  return (
-    <Router>
-      <div id="App">
-        Hello Blue Sky
+    return (
+      <Router>
+        <div id="App">
+          Hello Blue Sky
         <Route to='/' component={Header} />
-      </div>
-    </Router>
-  )
+        </div>
+      </Router>
+    )
 }
 
 export default App
