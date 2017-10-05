@@ -4,13 +4,17 @@ import { render, ReactDOM } from 'react-dom'
 
 // component imports go here
 
-export default class App extends React.Component {
+class App extends React.Component {
 
   render () {
     return (
+      <Router>
       <div id="App">
         Hello Blue Sky
       </div>
+      </Router>
     )
   }
 }
+
+export default App
