@@ -10,8 +10,12 @@ class Blogs extends React.Component {
       BlogData,
       BlogType: []
     }
-    console.log(this.props)
+    console.log(this.state)
   }
+  ComponentDidMount(){
+    return
+  }
+
   render(){
     return (
       <div>Blogs Comp Text</div>

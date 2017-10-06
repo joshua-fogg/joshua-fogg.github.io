@@ -25697,8 +25697,12 @@ class Blogs extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
       BlogData: __WEBPACK_IMPORTED_MODULE_2__blog_blog_content_json___default.a,
       BlogType: []
     };
-    console.log(this.props);
+    console.log(this.state);
   }
+  ComponentDidMount() {
+    return;
+  }
+
   render() {
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
