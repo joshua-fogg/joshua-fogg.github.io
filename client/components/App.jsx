@@ -4,14 +4,18 @@ import { render, ReactDOM } from 'react-dom'
 
 // component imports go here
 import Header from './Header'
+import Blogs from './Blogs'
 
 const App = () => {
 
     return (
       <Router>
-        <div id="App">
-          Hello Blue Sky
-        <Route to='/' component={Header} />
+        <div id="container">
+        <Header />
+        <Blogs />
+        <br />
+          Page  - Raw Text: Hello Blue Sky
+        
         </div>
       </Router>
     )
