@@ -7,15 +7,23 @@ class Blogs extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      BlogData,
-      BlogType: ["Culture","Technology","Other", "Ramblings"]
+      "Content": BlogData,
+      "Chosen Blog": null
     }
-    console.log(this.state)
+    console.log("Blogs Loaded:", this.state)
   }
 
   render(){
     return (
-      <div>Blogs Component Text</div>
+      <div>
+        <h3>Blog Categories:</h3>
+        <ol>
+        {this.state.Content.map((category, i)=>{
+          return <li key={i}>{category[0].name}</li>
+        })}
+        </ol>
+      </div>
+
     )
   }
 }
