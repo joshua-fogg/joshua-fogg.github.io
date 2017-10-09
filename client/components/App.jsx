@@ -10,12 +10,10 @@ const App = () => {
 
     return (
       <Router>
-        <div id="container">
+        <div id="app">
         <Header />
         <Blogs />
         <br />
-          Page  - Raw Text: Hello Blue Sky
-        
         </div>
       </Router>
     )

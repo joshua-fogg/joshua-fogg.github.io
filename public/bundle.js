@@ -25616,11 +25616,10 @@ const App = () => {
     null,
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
-      { id: 'container' },
+      { id: 'app' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Header__["a" /* default */], null),
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__Blogs__["a" /* default */], null),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-      'Page  - Raw Text: Hello Blue Sky'
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null)
     )
   );
 };
@@ -25700,7 +25699,11 @@ class Blogs extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
     console.log(this.state);
   }
   ComponentDidMount() {
-    return;
+    const blogCategories = 1;
+    console.log(blogCategories);
+    this.setState({
+      BlogType: [blogCategories]
+    });
   }
 
   render() {

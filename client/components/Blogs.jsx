@@ -13,7 +13,11 @@ class Blogs extends React.Component {
     console.log(this.state)
   }
   ComponentDidMount(){
-    return
+    const blogCategories = 1
+    console.log(blogCategories)
+    this.setState({
+      BlogType: [blogCategories]
+    })
   }
 
   render(){
