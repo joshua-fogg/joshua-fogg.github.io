@@ -36,7 +36,6 @@ class Blogs extends React.Component {
         })}
         </ol>
       </div>
-
     )
   }
 }
