@@ -8,21 +8,14 @@ class Blogs extends React.Component {
     super(props)
     this.state = {
       BlogData,
-      BlogType: []
+      BlogType: ["Culture","Technology","Other", "Ramblings"]
     }
     console.log(this.state)
-  }
-  ComponentDidMount(){
-    const blogCategories = 1
-    console.log(blogCategories)
-    this.setState({
-      BlogType: [blogCategories]
-    })
   }
 
   render(){
     return (
-      <div>Blogs Comp Text</div>
+      <div>Blogs Component Text</div>
     )
   }
 }
