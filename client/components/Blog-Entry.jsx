@@ -19,9 +19,8 @@ const Blog = (props) => {
         )
       })
       }
-      {entry.content.length(-1)}
       <div className="">
-
+        
       </div>
     </div>
   )
