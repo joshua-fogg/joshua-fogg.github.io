@@ -26,12 +26,10 @@ class Blogs extends React.Component {
             color: 'green',
             backgroundImage: "url(" + category[0].image + ")"
           }
-          return (
-            <li key={i}> 
-              <div style={style}>
+          return ( 
+              <div style={style} key={i}>
               <h4>{category[0].name}:</h4>  
               </div>
-            </li>
             )
         })}
         </ol>
