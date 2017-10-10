@@ -28,7 +28,7 @@ class Blogs extends React.Component {
           }
           return ( 
               <div style={style} key={i}>
-              <h4>{category[0].name}:</h4>  
+                <h4>{category[0].name}:</h4>  
               </div>
             )
         })}
