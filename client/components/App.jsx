@@ -6,6 +6,8 @@ import { render, ReactDOM } from 'react-dom'
 import Header from './Header'
 import Blog from './Blog-Entry'
 import Blogs from './Blogs'
+import Footer from './Footer'
+
 
 const App = () => {
 
@@ -15,7 +17,7 @@ const App = () => {
         <Header />
         <Route exact path="/blogs" component={Blogs} />
         <Route path="/blogs/:genre/:id" component={Blog}/>
-        <br />
+        <Footer />
         </div>
       </Router>
     )
