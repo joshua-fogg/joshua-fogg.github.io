@@ -15,7 +15,7 @@ const Blog = (props) => {
         return (
           <BlogPartial contentPartial={contentPartial} key={i}/>
         )
-      })
+        })
       }
     </div>
   )

@@ -25601,12 +25601,14 @@ module.exports = function hoistNonReactStatics(targetComponent, sourceComponent,
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_dom__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Header__ = __webpack_require__(78);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Blog_Entry__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Blogs__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Blogs__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Footer__ = __webpack_require__(84);
 
 
 
 
 // component imports go here
+
 
 
 
@@ -25622,7 +25624,7 @@ const App = () => {
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Header__["a" /* default */], null),
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/blogs', component: __WEBPACK_IMPORTED_MODULE_5__Blogs__["a" /* default */] }),
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { path: '/blogs/:genre/:id', component: __WEBPACK_IMPORTED_MODULE_4__Blog_Entry__["a" /* default */] }),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null)
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__Footer__["a" /* default */], null)
     )
   );
 };
@@ -25640,39 +25642,41 @@ const App = () => {
 
 
 
-const Header = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-  'div',
-  { className: 'header' },
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+const Header = props => {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'div',
-    { id: 'name' },
+    { className: 'header' },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'h1',
-      null,
-      ' Joshua Fogg '
-    ),
-    ' Comming Up For Air '
-  ),
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    'div',
-    { id: 'navigation-bar' },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-      { to: '/blogs' },
-      'Blog'
+      'div',
+      { id: 'name' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'h1',
+        null,
+        ' Joshua Fogg '
+      ),
+      ' Comming Up For Air '
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-      { to: '/about' },
-      'About'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-      { to: '/portfolio' },
-      'Portfolio '
+      'div',
+      { id: 'navigation-bar' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
+        { to: '/blogs' },
+        'Blog'
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
+        { to: '/about' },
+        'About'
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
+        { to: '/portfolio' },
+        'Portfolio '
+      )
     )
-  )
-);
+  );
+};
 
 /* harmony default export */ __webpack_exports__["a"] = (Header);
 
@@ -25685,6 +25689,9 @@ const Header = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Blog_Partial__ = __webpack_require__(80);
+
+
 
 
 
@@ -25702,23 +25709,8 @@ const Blog = props => {
       entry["page-title"]
     ),
     entry.content.map((contentPartial, i) => {
-      let CP = contentPartial;
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
-        { className: 'partial', key: i },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'h2',
-          null,
-          CP.heading
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          CP.content
-        )
-      );
-    }),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: '' })
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Blog_Partial__["a" /* default */], { contentPartial: contentPartial, key: i });
+    })
   );
 };
 /* harmony default export */ __webpack_exports__["a"] = (Blog);
@@ -25730,10 +25722,40 @@ const Blog = props => {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router__ = __webpack_require__(81);
+
+
+const card = props => {
+  console.log(props);
+  const CP = props.contentPartial;
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    "div",
+    { className: "partial", key: props.i },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "h2",
+      null,
+      CP.heading
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "p",
+      null,
+      CP.content
+    )
+  );
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (card);
+
+/***/ }),
+/* 81 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_dom__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__blog_blog_content_json__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__blog_blog_content_json__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__blog_blog_content_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__blog_blog_content_json__);
 
 
@@ -25786,7 +25808,7 @@ class Blogs extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 /* harmony default export */ __webpack_exports__["a"] = (Blogs);
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25828,10 +25850,31 @@ class Blogs extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, exports) {
 
-module.exports = [[{"name":"Cultural","image":"https://images.unsplash.com/photo-1480062600226-3c1efdb487ad"},{"page-title":"Reflection","content":[{"heading":"What's my take on the EDA experience? ","content":"I think that the EDA experience causes you to own up to your mistakes and step out from unde your shell. </p> <p> It seems the majority of learning is directed to help force you to enable yourself, to motivate yourself and be the change you want to see."},{"heading":"What are your impressions?","content":"My impressions of EDA so far have been based on previous EDA students I have met. They all spoke very highly and passionately about the course and it's graduates."},{"heading":"How do you see yourself engaging with this type of culture?","content":"I'm looking forward to meeting my cohort and developing a culture of our own. "},{"heading":"Have your expectations of EDA changed? If so, how?","content":"My exectations haven't changed since enrolling, the experience so far has been how I thought it would be."},{"heading":"Are you excited to participate in this kind of learning environment? Does it make you nervous?","content":"I will admit I am nervous of the uncertainties but I look forward to crafting new skillsets, taking an adventure and meeting some new comrades. "},{"heading":"Reflections from Shereed Kitchen on Kitchen vs Table","content":"<li> Kitchen mindset: what can I create. I have the ability to do and create.</li><li> Table mindset: What will I consume / order. Low outcome long term.</li> <li> being able to help and co-construct will give us the greatest creativity and development.</li>"}],"images":[{"image-bottom":"https://mtgcommunityblog.files.wordpress.com/2015/12/road-ahead.jpg"}]},{"page-title":"Time and Habbits","content":[{"heading":"Timebox and Habit Techniques","content":"Well the idea of the Pomodoro didn't quite catch as I think by 25 minutes I would only just be getting fired up on a task. Prefering the longer stunts and sharing a last name of Fogg... well I went with the Fogg technique. Keeping it simple and clear feels this best approach at the present.  It enalbes me to create clear objectives and be clear about what I am achieving today."},{"heading":"What I Found Interesting? ","content":"The diveristy of options availbale was nice to see. It was good to know that people can work quite differently."},{"heading":"What I found Worked","content":"I enjoyed the Fogg idea but I think timeboxing is a key aspect to rotating through problems so that a fresh line of problem solving an be brought to the task. I think mixing the Fogg technique with an adapted Pomodoro approach would be best for me."},{"heading":"Further Trials","content":"I will keep mixing it up when I feel I am getting stuck on something. This shoudl keep it interesting :) and keep me learning and engaged with the process."}],"images":{}},{"page-title":"Emotional Intelligence","content":[{"heading":"Emotional Intelligence:","content":"Search Inside yourself, 2014; Chade-Meng Tan, That Google Guy. Chapter 1. </p><p> The first chapter's teachings. </p><p> The first chapter reminded me of many elements and teachings I had been exposed to while growing up. Meng introduces the reader to the idea of self awareness and self-regulation, using the term `Emotional Intelligence` to describe them."},{"heading":"What is emotional intelligence","content":"Emotional Intelligence is the capacity to which we are able to be aware of, control, and express our emotions. It allows us to be mindful of our emotional state and to allow us to have more control over our emotions and reactions. </p><p> Emotional intelligence allows us to navigate interpersonal relationships in a rational state and allows us to more effectively communicate with our work team, family and extended social circles."},{"heading":"The benefits of emotional intelligence","content":"<ul>The benefit of emotional intelligence include: <li> Better work performance</li><li> Outstanding leadership capability </li><li> The ability to create happiness </li> </ul> These three key areas assist a practicer to establish a high achievement drive, generate influence ability and conceptual thinking by boosting analytical abilities, confidence and communication skills."},{"heading":"Techniques for emotional intelligence:","content":"<ul><li> Attention Training - training to consciously focus and calm your mind. </li><li> Self-Knowledge and Self-Mastery - understanding that your emotions are a part of you and reveal yourself to you, and they do not control you </li><li> Creating Mental Habits - mindfulness meditation. This allows the user to flex their attention span and help remove mental stressors.</li>"}],"images":{}},{"page-title":"Meditation Process","content":[{"heading":"Process Over Product","content":"Learn how the rocket works, to make better rockets in the future."},{"heading":"What did I think about meditation before chapter 2","content":"Mediation has come up multiple times so far in my life. However I can say I am not a regular practicer. I go through short intervals every few years typically after a large or stressful life event before falling of teh band wagon after a few weeks. </p><p> It's an interesting thought that even though I know it is meant to help me but as it's not a physical thing I have found it hard to commit to despite being exposed to meditation and mindfulness from a young age. This year I hope to change this aspect."},{"heading":"New learnings from chapter 2","content":"From chapter 2 I learnt that meditation trains meta-attention. This is given as an analogy of a bike and rider wishing to ride in a straight line. Meta-attention in this scenario is the repeated correction needed to maintain a straight line of travel, meaning the relatively straight line of movement in this analogy is attention. It was interesting reading about the articles that covered the impact of mindfulness meditation on physiologyical outcomes, i.e. psoriasis healing time / prevalence and attention-blink frequencies."},{"heading":"My opinions of the prescribed meditation techniques","content":"In the past I have been taught breathing focused and visualisation techniques. I was initially recommended breathing awareness to start with as it would be easy for a beginner to grasp. Being stiff due to my time infront of screens has made it difficult to do much sitting meditation in the <a> 7 point pose <div><img src=`../img/meditation_sitting.png` height=`10%`></div></a> for this reason I also prefer the walking meditation or active meditation. It also gives a greater endorphine return as exercise is being incorporated into the practice.... plus I can tend to have a few too many coffees so this helps walk it off..."}],"images":{"image":"<img src='../img/sunriseset_26.jpg' alt='filler' width='100%' height='15%'>"}},{"page-title":"","content":[{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""}],"images":{}}],[{"name":"Technical","image":"https://images.unsplash.com/photo-1506452819137-0422416856b8"},{"page-title":"","content":[{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""}],"images":{}},{"page-title":"","content":[{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""}],"images":{}}],[{"name":"Other","image":"https://images.unsplash.com/photo-1502727363576-80d638f7b7ef"},{"page-title":"","content":[{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""}],"images":{}}],[{"name":"Habbits","image":"https://images.unsplash.com/photo-1504197832061-98356e3dcdcf"},{"name":"Reflects","note":""},{"name":"Tidy","note":""},{"name":"Play","note":""},{"name":"Persevere","note":""},{"name":"Explore","note":"You can do many things with JavaScript. There's a big world out there for you to explore. <br>'If you haven't found something strange during the day, it hasn't been much of a day.' — John Archibald Wheeler"},{"name":"Communicate","note":"Web developers need excellent communication skills - for working together on problems, sharing difficulties, finding solutions, managing client and manager expectations, building systems that talk to each other, and writing readable code.</p><p>Good communication leads to good relationships, less stress and better work. This course is an excellent chance for you to work on your communication skills - you'll need them at every step.</p><br /> <p>That which we are capable of feeling, we are capable of saying. — Cervante"},{"name":"Equanimity","note":"<i>Equanimity (Latin: æquanimitas having an even mind; aequus even animus mind/soul) is a state of psychological stability and composure which is undisturbed by experience of or exposure to emotions, pain, or other phenomena that may cause others to lose the balance of their mind.</i> - Wikipedia"},{"name":"Hone","note":""},{"name":"Share","note":"The term open source refers to something that can be modified and shared because its design is publicly accessible."}]]
+module.exports = [[{"name":"Cultural","image":"https://images.unsplash.com/photo-1480062600226-3c1efdb487ad"},{"page-title":"Reflection","images":{"image-bottom":"https://mtgcommunityblog.files.wordpress.com/2015/12/road-ahead.jpg"},"content":[{"heading":"What's my take on the EDA experience? ","content":"I think that the EDA experience causes you to own up to your mistakes and step out from unde your shell. </p> <p> It seems the majority of learning is directed to help force you to enable yourself, to motivate yourself and be the change you want to see."},{"heading":"What are your impressions?","content":"My impressions of EDA so far have been based on previous EDA students I have met. They all spoke very highly and passionately about the course and it's graduates."},{"heading":"How do you see yourself engaging with this type of culture?","content":"I'm looking forward to meeting my cohort and developing a culture of our own. "},{"heading":"Have your expectations of EDA changed? If so, how?","content":"My exectations haven't changed since enrolling, the experience so far has been how I thought it would be."},{"heading":"Are you excited to participate in this kind of learning environment? Does it make you nervous?","content":"I will admit I am nervous of the uncertainties but I look forward to crafting new skillsets, taking an adventure and meeting some new comrades. "},{"heading":"Reflections from Shereed Kitchen on Kitchen vs Table","content":"<li> Kitchen mindset: what can I create. I have the ability to do and create.</li><li> Table mindset: What will I consume / order. Low outcome long term.</li> <li> being able to help and co-construct will give us the greatest creativity and development.</li>"}]},{"page-title":"Time and Habbits","images":{},"content":[{"heading":"Timebox and Habit Techniques","content":"Well the idea of the Pomodoro didn't quite catch as I think by 25 minutes I would only just be getting fired up on a task. Prefering the longer stunts and sharing a last name of Fogg... well I went with the Fogg technique. Keeping it simple and clear feels this best approach at the present.  It enalbes me to create clear objectives and be clear about what I am achieving today."},{"heading":"What I Found Interesting? ","content":"The diveristy of options available was nice to see. It was good to know that people can work quite differently."},{"heading":"What I found Worked","content":"I enjoyed the Fogg idea but I think timeboxing is a key aspect to rotating through problems so that a fresh line of problem solving an be brought to the task. I think mixing the Fogg technique with an adapted Pomodoro approach would be best for me."},{"heading":"Further Trials","content":"I will keep mixing it up when I feel I am getting stuck on something. This shoudl keep it interesting :) and keep me learning and engaged with the process."}]},{"page-title":"Emotional Intelligence","images":{},"content":[{"heading":"Emotional Intelligence:","content":"Search Inside yourself, 2014; Chade-Meng Tan, That Google Guy. Chapter 1. </p><p> The first chapter's teachings. </p><p> The first chapter reminded me of many elements and teachings I had been exposed to while growing up. Meng introduces the reader to the idea of self awareness and self-regulation, using the term `Emotional Intelligence` to describe them."},{"heading":"What is emotional intelligence","content":"Emotional Intelligence is the capacity to which we are able to be aware of, control, and express our emotions. It allows us to be mindful of our emotional state and to allow us to have more control over our emotions and reactions. </p><p> Emotional intelligence allows us to navigate interpersonal relationships in a rational state and allows us to more effectively communicate with our work team, family and extended social circles."},{"heading":"The benefits of emotional intelligence","content":"<ul>The benefit of emotional intelligence include: <li> Better work performance</li><li> Outstanding leadership capability </li><li> The ability to create happiness </li> </ul> These three key areas assist a practicer to establish a high achievement drive, generate influence ability and conceptual thinking by boosting analytical abilities, confidence and communication skills."},{"heading":"Techniques for emotional intelligence:","content":"<ul><li> Attention Training - training to consciously focus and calm your mind. </li><li> Self-Knowledge and Self-Mastery - understanding that your emotions are a part of you and reveal yourself to you, and they do not control you </li><li> Creating Mental Habits - mindfulness meditation. This allows the user to flex their attention span and help remove mental stressors.</li>"}]},{"page-title":"Meditation Process","images":{"image":"../img/sunriseset_26.jpg"},"content":[{"heading":"Process Over Product","content":"Learn how the rocket works, to make better rockets in the future."},{"heading":"What did I think about meditation before chapter 2","content":"Mediation has come up multiple times so far in my life. However I can say I am not a regular practicer. I go through short intervals every few years typically after a large or stressful life event before falling of teh band wagon after a few weeks. </p><p> It's an interesting thought that even though I know it is meant to help me but as it's not a physical thing I have found it hard to commit to despite being exposed to meditation and mindfulness from a young age. This year I hope to change this aspect."},{"heading":"New learnings from chapter 2","content":"From chapter 2 I learnt that meditation trains meta-attention. This is given as an analogy of a bike and rider wishing to ride in a straight line. Meta-attention in this scenario is the repeated correction needed to maintain a straight line of travel, meaning the relatively straight line of movement in this analogy is attention. It was interesting reading about the articles that covered the impact of mindfulness meditation on physiologyical outcomes, i.e. psoriasis healing time / prevalence and attention-blink frequencies."},{"heading":"My opinions of the prescribed meditation techniques","content":"In the past I have been taught breathing focused and visualisation techniques. I was initially recommended breathing awareness to start with as it would be easy for a beginner to grasp. Being stiff due to my time infront of screens has made it difficult to do much sitting meditation in the <a> 7 point pose <div><img src=`../img/meditation_sitting.png` height=`10%`></div></a> for this reason I also prefer the walking meditation or active meditation. It also gives a greater endorphine return as exercise is being incorporated into the practice.... plus I can tend to have a few too many coffees so this helps walk it off..."}]},{"page-title":"","images":{},"content":[{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""}]}],[{"name":"Technical","image":"https://images.unsplash.com/photo-1506452819137-0422416856b8"},{"page-title":"","images":{},"content":[{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""}]},{"page-title":"","images":{},"content":[{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""}]}],[{"name":"Other","image":"https://images.unsplash.com/photo-1502727363576-80d638f7b7ef"},{"page-title":"","images":{},"content":[{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""}]},{"page-title":"","images":{},"content":[{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""},{"heading":"","content":""}]}]]
+
+/***/ }),
+/* 84 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(19);
+
+
+
+const Header = props => {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    { className: 'footer' },
+    'FOOTER'
+  );
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (Header);
 
 /***/ })
 /******/ ]);
