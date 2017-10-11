@@ -12,7 +12,6 @@ const card = (props) => {
         <h2>{CP.heading}</h2>
         <p>{CP.content}</p>
       </div>
-      
     </div>
   )
 }
