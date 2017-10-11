@@ -6,6 +6,7 @@
     },
     {
       "page-title": "Reflection",
+      "images": {"image-bottom": "https://mtgcommunityblog.files.wordpress.com/2015/12/road-ahead.jpg"},
       "content": [
         {
           "heading": "What's my take on the EDA experience? ",
@@ -31,15 +32,11 @@
           "heading": "Reflections from Shereed Kitchen on Kitchen vs Table",
           "content": "<li> Kitchen mindset: what can I create. I have the ability to do and create.</li><li> Table mindset: What will I consume / order. Low outcome long term.</li> <li> being able to help and co-construct will give us the greatest creativity and development.</li>"
         }
-      ],
-      "images": [
-        {
-          "image-bottom": "https://mtgcommunityblog.files.wordpress.com/2015/12/road-ahead.jpg"
-        }
       ]
     },
     {
       "page-title": "Time and Habbits",
+      "images": {},
       "content": [
         {
           "heading": "Timebox and Habit Techniques",
@@ -47,7 +44,7 @@
         },
         {
           "heading": "What I Found Interesting? ",
-          "content": "The diveristy of options availbale was nice to see. It was good to know that people can work quite differently."
+          "content": "The diveristy of options available was nice to see. It was good to know that people can work quite differently."
         },
         {
           "heading": "What I found Worked",
@@ -57,11 +54,11 @@
           "heading": "Further Trials",
           "content": "I will keep mixing it up when I feel I am getting stuck on something. This shoudl keep it interesting :) and keep me learning and engaged with the process."
         }
-      ],
-      "images": {}
+      ]
     },
     {
       "page-title": "Emotional Intelligence",
+      "images": {},
       "content": [
         {
           "heading": "Emotional Intelligence:",
@@ -79,11 +76,13 @@
           "heading": "Techniques for emotional intelligence:",
           "content": "<ul><li> Attention Training - training to consciously focus and calm your mind. </li><li> Self-Knowledge and Self-Mastery - understanding that your emotions are a part of you and reveal yourself to you, and they do not control you </li><li> Creating Mental Habits - mindfulness meditation. This allows the user to flex their attention span and help remove mental stressors.</li>"
         }
-      ],
-      "images": {}
+      ]
     },
     {
       "page-title": "Meditation Process",
+      "images": {
+        "image": "../img/sunriseset_26.jpg"
+      },
       "content": [
         {
           "heading": "Process Over Product",
@@ -101,13 +100,11 @@
           "heading": "My opinions of the prescribed meditation techniques",
           "content": "In the past I have been taught breathing focused and visualisation techniques. I was initially recommended breathing awareness to start with as it would be easy for a beginner to grasp. Being stiff due to my time infront of screens has made it difficult to do much sitting meditation in the <a> 7 point pose <div><img src=`../img/meditation_sitting.png` height=`10%`></div></a> for this reason I also prefer the walking meditation or active meditation. It also gives a greater endorphine return as exercise is being incorporated into the practice.... plus I can tend to have a few too many coffees so this helps walk it off..."
         }
-      ],
-      "images": {
-        "image": "<img src='../img/sunriseset_26.jpg' alt='filler' width='100%' height='15%'>"
-      }
+      ]
     },
     {
       "page-title": "",
+      "images": {},
       "content": [
         {
           "heading": "",
@@ -125,8 +122,7 @@
           "heading": "",
           "content": ""
         }
-      ],
-      "images": {}
+      ]
     }
   ],
   [
@@ -136,6 +132,7 @@
     },
     {
       "page-title": "",
+      "images": {},
       "content": [
         {
           "heading": "",
@@ -153,11 +150,11 @@
           "heading": "",
           "content": ""
         }
-      ],
-      "images": {}
+      ]
     },
     {
       "page-title": "",
+      "images": {},
       "content": [
         {
           "heading": "",
@@ -175,8 +172,7 @@
           "heading": "",
           "content": ""
         }
-      ],
-      "images": {}
+      ]
     }
   ],
   [
@@ -186,6 +182,7 @@
     },
     {
       "page-title": "",
+      "images": {},
       "content": [
         {
           "heading": "",
@@ -203,50 +200,28 @@
           "heading": "",
           "content": ""
         }
-      ],
-      "images": {}
-    }
-  ],
-  [
-    {
-      "name": "Habbits",
-      "image": "https://images.unsplash.com/photo-1504197832061-98356e3dcdcf"
-    },
-    {
-      "name": "Reflects",
-      "note": ""
-    },
-    {
-      "name": "Tidy",
-      "note": ""
-    },
-    {
-      "name": "Play",
-      "note": ""
-    },
-    {
-      "name": "Persevere",
-      "note": ""
-    },
-    {
-      "name": "Explore",
-      "note": "You can do many things with JavaScript. There's a big world out there for you to explore. <br>'If you haven't found something strange during the day, it hasn't been much of a day.' — John Archibald Wheeler"
-    },
-    {
-      "name": "Communicate",
-      "note": "Web developers need excellent communication skills - for working together on problems, sharing difficulties, finding solutions, managing client and manager expectations, building systems that talk to each other, and writing readable code.</p><p>Good communication leads to good relationships, less stress and better work. This course is an excellent chance for you to work on your communication skills - you'll need them at every step.</p><br /> <p>That which we are capable of feeling, we are capable of saying. — Cervante"
-    },
-    {
-      "name": "Equanimity",
-      "note": "<i>Equanimity (Latin: æquanimitas having an even mind; aequus even animus mind/soul) is a state of psychological stability and composure which is undisturbed by experience of or exposure to emotions, pain, or other phenomena that may cause others to lose the balance of their mind.</i> - Wikipedia"
-    },
-    {
-      "name": "Hone",
-      "note": ""
-    },
-    {
-      "name": "Share",
-      "note": "The term open source refers to something that can be modified and shared because its design is publicly accessible."
+      ]
+    },    {
+      "page-title": "",
+      "images": {},
+      "content": [
+        {
+          "heading": "",
+          "content": ""
+        },
+        {
+          "heading": "",
+          "content": ""
+        },
+        {
+          "heading": "",
+          "content": ""
+        },
+        {
+          "heading": "",
+          "content": ""
+        }
+      ]
     }
   ]
 ]
