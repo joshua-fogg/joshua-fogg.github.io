@@ -17,9 +17,6 @@ const Blog = (props) => {
         )
       })
       }
-      <div className="">
-        
-      </div>
     </div>
   )
 }
