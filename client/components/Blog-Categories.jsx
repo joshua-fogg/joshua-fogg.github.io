@@ -1,6 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router'
 import { render } from 'react-dom'
+import { Link } from 'react-router-dom'
+
 
 import BlogData from '../../blog/blog-content.json'
 
@@ -17,18 +18,10 @@ class Blogs extends React.Component {
       <div>
         <h3>Blog Categories:</h3>
         {this.state.Content.map((category, i)=>{
-          const style = {
-            width: '70%',
-            height: '300px',
-            border: 'solid 2px grey',
-            color: 'green',
-            backgroundImage: `url("${category[0].image}")`,
-            backgroundSize: "cover",
-            display: "inline-block"
-          }
+          
           return ( 
-              <div style={style} key={i}>
-                  <h4>{category[0].name}:</h4>
+              <div className="btn btn-danger" key={i}>
+                  <Link to={`/blogs/${category[0].name}/`}><h4>{category[0].name}:</h4></Link>
               </div>
             )
           })
@@ -37,5 +30,13 @@ class Blogs extends React.Component {
     )
   }
 }
-
+//   const style = {
+//   width: '70%',
+//   height: '300px',
+//   border: 'solid 2px grey',
+//   color: 'green',
+//   backgroundImage: `url("${category[0].image}")`,
+//   backgroundSize: "cover",
+//   display: "inline-block"
+// }
 export default Blogs
