@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Habbits",
+    "image": "https://images.unsplash.com/photo-1504197832061-98356e3dcdcf"
+  },
+  {
+    "name": "Reflection",
+    "note": "Reflection helps us better fill this house of knowledge - be it journaling, talking to a friend or a reflective meditation. The science behind reflection is compelling. We know intuitively that we learn by experience and also that we learn from our mistakes. But research is increasingly telling us that without the process of actively thinking about those experiences, and questioning ourselves about what they mean, learning doesn't really happen."
+  },
+  {
+    "name": "Tidy",
+    "note": "Tidy is the habit of keeping your code clean. If the project you are working on is successful, it is inevitable that you, or other people will work with it in the future. If you leave a mess, it is going to be very time and energy consuming to work with as it evolves in the future."
+  },
+  {
+    "name": "Play",
+    "note": "Play is the habit of staying curious and creative. To learn challenging concepts and solve the complex problems you'll face, you'll need to fully engage yourself, try new things and not be afraid of failure."
+  },
+  {
+    "name": "Persevere",
+    "note": "JavaScript is hard. You'll need perserverence to keep working your way through unfamiliar territory, strange errors and tricky concepts. Keep calm and carry on - it'll help both you and those you're working with."
+  },
+  {
+    "name": "Explore",
+    "note": "You can do many things with JavaScript. There's a big world out there for you to explore. <br>'If you haven't found something strange during the day, it hasn't been much of a day.' — John Archibald Wheeler"
+  },
+  {
+    "name": "Communicate",
+    "note": "Web developers need excellent communication skills - for working together on problems, sharing difficulties, finding solutions, managing client and manager expectations, building systems that talk to each other, and writing readable code.</p><p>Good communication leads to good relationships, less stress and better work. This course is an excellent chance for you to work on your communication skills - you'll need them at every step.</p><br /> <p>That which we are capable of feeling, we are capable of saying. — Cervante"
+  },
+  {
+    "name": "Equanimity",
+    "note": "<i>Equanimity (Latin: æquanimitas having an even mind; aequus even animus mind/soul) is a state of psychological stability and composure which is undisturbed by experience of or exposure to emotions, pain, or other phenomena that may cause others to lose the balance of their mind.</i> - Wikipedia"
+  },
+  {
+    "name": "Hone",
+    "note": ""
+  },
+  {
+    "name": "Share",
+    "note": "The term open source refers to something that can be modified and shared because its design is publicly accessible."
+  }
+]
