@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 
-import BlogCard from './Blog-Card'
+import BlogPartial from './Blog-Partial'
 
 const Blog = (props) => {
   const entry = props.entry
@@ -13,7 +13,7 @@ const Blog = (props) => {
       <h1>{entry["page-title"]}</h1>
       {entry.content.map((contentPartial, i) => {
         return (
-          <BlogCard contentPartial={contentPartial} key={i}/>
+          <BlogPartial contentPartial={contentPartial} key={i}/>
         )
       })
       }
